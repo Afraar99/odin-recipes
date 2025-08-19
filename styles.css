@@ -1,0 +1,232 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1,
+h2 {
+  color: #2c3e50;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Navigation */
+a[href="../index.html"] {
+  display: inline-block;
+  margin: 10px 0;
+  color: #3498db;
+  font-weight: bold;
+}
+
+/* Recipe List */
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+ul li a {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  background-color: #ecf0f1;
+}
+
+ul li a:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Recipe Page */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+p,
+ul,
+ol {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 0 20px;
+}
+
+ul,
+ol {
+  padding-left: 40px;
+}
+
+ul li,
+ol li {
+  margin-bottom: 10px;
+}
+/* Enhanced Homepage Styles */
+.main-header {
+  background: linear-gradient(90deg, #6dd5ed 0%, #2193b0 100%);
+  color: #fff;
+  padding: 40px 0 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(33, 147, 176, 0.1);
+}
+.main-header h1 {
+  margin: 0;
+  font-size: 2.8em;
+  letter-spacing: 2px;
+}
+.subtitle {
+  font-size: 1.3em;
+  margin-top: 10px;
+  color: #e0f7fa;
+}
+.recipes-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  max-width: 1200px;
+}
+.recipe-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(33, 147, 176, 0.12);
+  padding: 24px 18px 18px 18px;
+  width: 320px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.recipe-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(33, 147, 176, 0.18);
+}
+.recipe-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.recipe-card h2 {
+  font-size: 1.3em;
+  margin: 10px 0 16px 0;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  background: #2193b0;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(33, 147, 176, 0.08);
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: #6dd5ed;
+  color: #2193b0;
+}
+
+/* Enhanced Recipe Page Styles */
+.recipe-header {
+  background: linear-gradient(90deg, #2193b0 0%, #6dd5ed 100%);
+  color: #fff;
+  padding: 32px 0 16px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(33, 147, 176, 0.08);
+}
+.recipe-header h1 {
+  margin: 0;
+  font-size: 2.2em;
+  letter-spacing: 1px;
+}
+/* Improved Home Button */
+/* Themed Home Button */
+/* Themed Home Button - right aligned, no hover */
+.recipe-header {
+  position: relative;
+  background: linear-gradient(90deg, #2193b0 0%, #6dd5ed 100%);
+  color: #fff;
+  padding: 32px 0 16px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(33, 147, 176, 0.08);
+}
+/* Improved Home Button Visibility */
+/* Home Button - transparent background, white text */
+.back-home {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  color: #fff;
+  background: transparent;
+  padding: 12px 32px;
+  border-radius: 32px;
+  font-weight: bold;
+  font-size: 1.15em;
+  text-decoration: none;
+  box-shadow: none;
+  border: 2px solid #fff;
+  letter-spacing: 1px;
+}
+.recipe-main {
+  max-width: 800px;
+  margin: 32px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(33, 147, 176, 0.1);
+  padding: 32px 24px;
+}
+.recipe-img-card {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.recipe-img-card img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(33, 147, 176, 0.1);
+}
+.recipe-section {
+  margin-bottom: 32px;
+}
+.recipe-section h2 {
+  color: #2193b0;
+  margin-top: 0;
+  margin-bottom: 12px;
+  text-align: left;
+}
+.recipe-section ul,
+.recipe-section ol {
+  max-width: 600px;
+  margin: 0 auto 0 0;
+  padding-left: 24px;
+}

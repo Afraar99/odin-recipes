@@ -4,15 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-      <li><a href="./recipes/warm-berry.html">Warm Berry Recipe</a></li>
-      <li>
-        <a href="./recipes/cilantro-chicken.html">Cilantro Chicken Recipe</a>
-      </li>
-      <li><a href="./recipes/grilled-corn.html">Grilled Corn Recipe</a></li>
-    </ul>
+    <header class="main-header">
+      <h1>Odin Recipes</h1>
+      <p class="subtitle">Discover delicious recipes for every occasion</p>
+    </header>
+    <section class="recipes-list">
+      <div class="recipe-card">
+        <img
+          src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4460178.jpg&q=60&c=sc&poi=auto&orient=true&h=256"
+          alt="Warm Berry"
+        />
+        <h2>Warm Berry Recipe</h2>
+        <a href="./recipes/warm-berry.html" class="btn">View Recipe</a>
+      </div>
+      <div class="recipe-card">
+        <img
+          src="https://www.allrecipes.com/thmb/aHHcwY1ibWpVZfdmWp98c-725VU=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/RM-218863-SlowCookerCilantroLimeChicken-ddmfs-3x4-7030-f166f0f726d24ee3b1d12856f5244b08.jpg"
+          alt="Cilantro Chicken"
+        />
+        <h2>Cilantro Chicken Recipe</h2>
+        <a href="./recipes/cilantro-chicken.html" class="btn">View Recipe</a>
+      </div>
+      <div class="recipe-card">
+        <img
+          src="https://www.allrecipes.com/thmb/D6cOD_XDS9yhhnJhaxLqSq34KzI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/11783574-Grilled-Corn-and-Avocado-Salad-DDMFS-Beauty-4x3-b1823f5ea5de43f7b84755d1730771ab.jpg"
+          alt="Grilled Corn"
+        />
+        <h2>Grilled Corn Recipe</h2>
+        <a href="./recipes/grilled-corn.html" class="btn">View Recipe</a>
+      </div>
+    </section>
   </body>
 </html>
